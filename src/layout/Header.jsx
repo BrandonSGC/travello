@@ -41,16 +41,13 @@ export const Header = () => {
                 </a>
               </li>
               <li>
-                <a
-                  className="px-4 py-2 hover:bg-light-beige hover:rounded-lg"
-                  href="#"
-                >
+                <a className="px-4 py-2" href="#">
                   Login
                 </a>
               </li>
               <li>
                 <a
-                  className="px-4 py-2 border border-black rounded-md hover:bg-light-beige"
+                  className="px-4 py-2 border border-black rounded-md"
                   href="#"
                 >
                   Sign up
@@ -89,9 +86,21 @@ export const Header = () => {
           </div>
 
           <div className="relative">
-            <img className="absolute w-28 top-6 left-6" src="/plane.svg" alt="woman" />
-            <img className="absolute right-16 max-h-[450px]" src="/woman.svg" alt="woman" />
-            <img className="absolute right-6 bottom-4 w-28" src="/plane.svg" alt="woman" />
+            <img
+              className="absolute w-28 top-6 left-6"
+              src="/plane.svg"
+              alt="woman"
+            />
+            <img
+              className="absolute right-16 max-h-[450px]"
+              src="/woman.svg"
+              alt="woman"
+            />
+            <img
+              className="absolute right-6 bottom-4 w-28"
+              src="/plane.svg"
+              alt="woman"
+            />
           </div>
         </div>
       </div>

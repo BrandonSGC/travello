@@ -1,4 +1,4 @@
-export const DestinationCard = ({ image }) => {
+export const DestinationCard = ({ image, location, price, days }) => {
   return (
     <>
       <div className="h-[400px] w-[300px] overflow-hidden shadow rounded-3xl m-auto">
@@ -6,12 +6,12 @@ export const DestinationCard = ({ image }) => {
 
         <div className="p-4 font-semibold text-gray-500 bg-white">
           <div className="flex items-center justify-between">
-            <p className="my-2 text-center">Rome, Italy</p>
-            <span>$5,42k</span>
+            <p className="my-2 text-center">{location}</p>
+            <span>${price}</span>
           </div>
           <div className="flex items-center gap-3">
             <img className="w-4" src="/navigation.svg" alt="navigation" />
-            <p className="text-gray-600">{"10 Days Trip"}</p>
+            <p className="text-gray-600">{days} Days Trip</p>
           </div>
         </div>
       </div>
