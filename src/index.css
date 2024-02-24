@@ -9,4 +9,10 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .service-card {
+    width: 100px;
+    height: 80px;
+  }
 }
+

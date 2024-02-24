@@ -1,4 +1,4 @@
-import { Header, Services } from "./layout"
+import { Destinations, Header, Services } from "./layout"
 
 function App() {
 
@@ -6,6 +6,7 @@ function App() {
     <>
       <Header />
       <Services />
+      <Destinations />
     </>
   )
 }

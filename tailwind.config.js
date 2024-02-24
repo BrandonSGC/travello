@@ -10,7 +10,8 @@ export default {
         'light-beige': '#FFF1DA',
       },
       backgroundImage: {
-        'header': "url('/background.svg')"
+        'header': "url('/background.svg')",
+        'services': "url('/backgroung-plus.svg')"
       }
     },
   },

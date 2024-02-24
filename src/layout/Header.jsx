@@ -1,8 +1,8 @@
 export const Header = () => {
   return (
-    <header className="py-10 bg-right-top bg-no-repeat bg-contain bg-header">
+    <header className="bg-right-top bg-no-repeat bg-contain bg-header">
       <div className="mycontainer">
-        <div className="flex items-center justify-between mb-28">
+        <div className="flex items-center justify-between py-10 mb-28">
           <div className="w-40">
             <img src="/TravelloLogo.png" alt="Logo" />
           </div>
@@ -82,7 +82,7 @@ export const Header = () => {
                 Find out more
               </button>
               <div className="flex items-center gap-6">
-                <img className="w-14" src="play.svg" alt="play" />
+                <img className="w-14 " src="play.svg" alt="play" />
                 <p className="font-medium text-gray-600">Play Demo</p>
               </div>
             </div>
@@ -90,7 +90,7 @@ export const Header = () => {
 
           <div className="relative">
             <img className="absolute w-28 top-6 left-6" src="/plane.svg" alt="woman" />
-            <img className="absolute right-16" src="/woman.svg" alt="woman" />
+            <img className="absolute right-16 max-h-[450px]" src="/woman.svg" alt="woman" />
             <img className="absolute right-6 bottom-4 w-28" src="/plane.svg" alt="woman" />
           </div>
         </div>
